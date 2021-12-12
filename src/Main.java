@@ -3,10 +3,10 @@ public class Main {
         boolean registered = true;
         int price = 500;
         int ticket = 200;
-        int amount_miles_bonus = 10;
-        float amount_price = price - ticket;
+        int amountMilesBonus = 10;
+        float amountPrice = price - ticket;
 
-        System.out.println(amount_miles_bonus = 10);
+        System.out.println(amountMilesBonus = 10);
     }
 }
 
