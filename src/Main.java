@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        boolean registered = true;
-        int price = 500;
-        int ticket = 200;
-        int amountMilesBonus = 10;
-        float amountPrice = price - ticket;
-
-        System.out.println(amountMilesBonus = 10);
+        int balance = 100;
+        int addSum = 5000;
+        int bonus = 0;
+        if (addSum > 1000) {
+            bonus = addSum / 100;
+            int total = balance + addSum + bonus;
+            System.out.println(bonus);
+        }
     }
 }
-
