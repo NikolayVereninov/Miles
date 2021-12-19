@@ -7,6 +7,6 @@ public class Main {
             bonus = (addMoney / 100);
         }
         int total = balance + addMoney + bonus;
-        System.out.println(bonus + balance);
+        System.out.println(bonus + balance + addMoney);
     }
 }
